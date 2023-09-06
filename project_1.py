@@ -1,4 +1,5 @@
 from tkinter.filedialog import *
+from tkinter import *
 import tkinter as tk
 def saveFile():
     new_file=asksaveasfile(mode='w',filetype=[('text files','.txt')])
